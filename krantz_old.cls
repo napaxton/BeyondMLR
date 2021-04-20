@@ -1026,7 +1026,6 @@
 \newcommand\@dotsep{4.5}
 \setcounter{tocdepth}{3}
 
-
 \newcounter{numauthors}
 \newif\if@break
 \newif\if@firstauthor
@@ -1051,7 +1050,7 @@
 %%%    \chapter*{\contentsname
 %%%        \@mkboth{%
 %%%           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
-           \pagestyle{headings}\thispagestyle{folio}\setcounter{page}{5}
+           \pagestyle{headings}\thispagestyle{folio}
              {\let\break\space
     \let\author\toc@author
     \reset@authors
