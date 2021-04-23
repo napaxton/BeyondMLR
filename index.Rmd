@@ -116,6 +116,7 @@ needed_pkgs <- c(
   "reshape2",     # 1.4.4
   "rsample",      # 0.0.7
   "sessioninfo",  # 1.1.1
+  "tibble",
   "tidyverse",    # 1.3.0
   "xtable"        # 1.8-4
 )
@@ -144,9 +145,11 @@ remotes::install_version(package = "broom", version = "0.5.6")
 ```
 
 ```{r, echo=FALSE}
+library(tibble)
+library(dplyr)
 package_info(needed_pkgs) %>% 
   as_tibble() %>% 
-  filter(attached == TRUE) %>% 
+  filter(attached = TRUE) %>% 
   dplyr::select(package, version = ondiskversion) %>% 
   kable(
     booktabs = TRUE, 
