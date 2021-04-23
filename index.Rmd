@@ -98,7 +98,7 @@ needed_pkgs <- c(
   "ggmosaic",     # 0.2.0
   "gridExtra",    # 2.3
   "Hmisc",        # 4.4-0
-  "HMLdiag",      # 0.3.1
+  "HLMdiag",      # 0.3.1
   "ICC",          # 2.3.0
   "jtools",       # 2.0.5
   "kableExtra",   # 1.1.0

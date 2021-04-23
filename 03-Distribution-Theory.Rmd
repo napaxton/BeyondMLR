@@ -445,7 +445,7 @@ __Example 8:__ Two friends are out fishing. On average they catch two fish per h
 Using a gamma random variable, we set $r = 5$ and $\lambda = 2$. So, 
 
 \begin{align*}
-P(Y < 3) = \int_0^3 \frac{2^4}{\Gamma(5)} y^{4} e^{-2y}dy = 0.715.
+P(Y < 3) = \int_0^3 \frac{2^5}{\Gamma(5)} y^{4} e^{-2y}dy = 0.715.
 \end{align*}
 
 Using R:
